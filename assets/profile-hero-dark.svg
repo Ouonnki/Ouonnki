@@ -3,31 +3,31 @@
   <desc id="desc">A midnight aurora profile banner with an animated grid, orbit and glowing typography.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#070A18"/>
-      <stop offset="0.52" stop-color="#11102A"/>
-      <stop offset="1" stop-color="#061923"/>
+      <stop stop-color="#070A08"/>
+      <stop offset="0.52" stop-color="#0B100C"/>
+      <stop offset="1" stop-color="#141006"/>
     </linearGradient>
     <linearGradient id="titleGradient" x1="115" y1="128" x2="670" y2="236" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#C084FC">
-        <animate attributeName="stop-color" values="#C084FC;#67E8F9;#C084FC" dur="8s" repeatCount="indefinite"/>
+      <stop stop-color="#A3E635">
+        <animate attributeName="stop-color" values="#A3E635;#FACC15;#A3E635" dur="8s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="0.52" stop-color="#818CF8">
-        <animate attributeName="stop-color" values="#818CF8;#C084FC;#818CF8" dur="8s" repeatCount="indefinite"/>
+      <stop offset="0.52" stop-color="#84CC16">
+        <animate attributeName="stop-color" values="#84CC16;#FACC15;#84CC16" dur="8s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="1" stop-color="#22D3EE">
-        <animate attributeName="stop-color" values="#22D3EE;#A78BFA;#22D3EE" dur="8s" repeatCount="indefinite"/>
+      <stop offset="1" stop-color="#FACC15">
+        <animate attributeName="stop-color" values="#FACC15;#22D3EE;#FACC15" dur="8s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
-    <radialGradient id="violetGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(394 166) rotate(12) scale(440 210)">
-      <stop stop-color="#7C3AED" stop-opacity="0.23"/>
-      <stop offset="1" stop-color="#7C3AED" stop-opacity="0"/>
+    <radialGradient id="limeGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(394 166) rotate(12) scale(440 210)">
+      <stop stop-color="#84CC16" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#84CC16" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="cyanGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1045 112) rotate(138) scale(360 245)">
-      <stop stop-color="#06B6D4" stop-opacity="0.22"/>
-      <stop offset="1" stop-color="#06B6D4" stop-opacity="0"/>
+    <radialGradient id="amberGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1045 112) rotate(138) scale(360 245)">
+      <stop stop-color="#FACC15" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#FACC15" stop-opacity="0"/>
     </radialGradient>
     <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
-      <path d="M36 0H0V36" stroke="#A78BFA" stroke-opacity="0.07"/>
+      <path d="M36 0H0V36" stroke="#A3E635" stroke-opacity="0.065"/>
     </pattern>
     <filter id="blur24" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="24"/>
@@ -41,40 +41,40 @@
 
   <g clip-path="url(#frame)">
     <rect width="1200" height="360" fill="url(#bg)"/>
-    <rect width="1200" height="360" fill="url(#violetGlow)"/>
-    <rect width="1200" height="360" fill="url(#cyanGlow)"/>
+    <rect width="1200" height="360" fill="url(#limeGlow)"/>
+    <rect width="1200" height="360" fill="url(#amberGlow)"/>
     <rect width="1200" height="360" fill="url(#grid)" opacity="0.65">
       <animateTransform attributeName="transform" type="translate" values="0 0;36 36" dur="18s" repeatCount="indefinite"/>
     </rect>
 
-    <path d="M-40 300C190 182 345 350 585 248C808 153 955 196 1248 42" stroke="#8B5CF6" stroke-opacity="0.13" stroke-width="44" filter="url(#blur24)">
+    <path d="M-40 300C190 182 345 350 585 248C808 153 955 196 1248 42" stroke="#84CC16" stroke-opacity="0.13" stroke-width="44" filter="url(#blur24)">
       <animate attributeName="d" values="M-40 300C190 182 345 350 585 248C808 153 955 196 1248 42;M-40 258C188 350 358 175 604 250C842 324 1006 139 1248 86;M-40 300C190 182 345 350 585 248C808 153 955 196 1248 42" dur="16s" repeatCount="indefinite"/>
     </path>
-    <path d="M-30 322C214 234 395 344 610 263C831 180 1011 233 1235 118" stroke="#22D3EE" stroke-opacity="0.12" stroke-width="30" filter="url(#blur24)">
+    <path d="M-30 322C214 234 395 344 610 263C831 180 1011 233 1235 118" stroke="#FACC15" stroke-opacity="0.11" stroke-width="30" filter="url(#blur24)">
       <animate attributeName="d" values="M-30 322C214 234 395 344 610 263C831 180 1011 233 1235 118;M-30 284C210 356 414 208 632 278C826 340 1024 170 1235 148;M-30 322C214 234 395 344 610 263C831 180 1011 233 1235 118" dur="13s" repeatCount="indefinite"/>
     </path>
 
     <g opacity="0.9">
-      <circle cx="986" cy="178" r="112" stroke="#22D3EE" stroke-opacity="0.18"/>
-      <circle cx="986" cy="178" r="76" stroke="#A78BFA" stroke-opacity="0.22" stroke-dasharray="4 10">
+      <circle cx="986" cy="178" r="112" stroke="#A3E635" stroke-opacity="0.2"/>
+      <circle cx="986" cy="178" r="76" stroke="#FACC15" stroke-opacity="0.24" stroke-dasharray="4 10">
         <animateTransform attributeName="transform" type="rotate" from="0 986 178" to="360 986 178" dur="24s" repeatCount="indefinite"/>
       </circle>
       <ellipse cx="986" cy="178" rx="142" ry="47" transform="rotate(-18 986 178)" stroke="url(#titleGradient)" stroke-opacity="0.52" stroke-width="1.5" stroke-dasharray="44 15">
         <animateTransform attributeName="transform" type="rotate" from="-18 986 178" to="342 986 178" dur="30s" repeatCount="indefinite"/>
       </ellipse>
-      <circle cx="986" cy="178" r="31" fill="#111936" stroke="#67E8F9" stroke-opacity="0.7"/>
-      <path d="M972 178L982 188L1002 166" stroke="#E0F2FE" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-      <circle r="4.5" fill="#F0ABFC" filter="url(#textGlow)">
+      <circle cx="986" cy="178" r="31" fill="#10150F" stroke="#22D3EE" stroke-opacity="0.7"/>
+      <path d="M972 178L982 188L1002 166" stroke="#FDE68A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle r="4.5" fill="#FACC15" filter="url(#textGlow)">
         <animateMotion dur="10s" repeatCount="indefinite" path="M1128 178C1128 204 1066 229 986 229C906 229 844 204 844 178C844 152 906 127 986 127C1066 127 1128 152 1128 178Z"/>
       </circle>
     </g>
 
     <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
-      <text x="82" y="74" fill="#67E8F9" font-size="15" letter-spacing="3">// OUONNKI.SPACE</text>
-      <circle cx="83" cy="104" r="4" fill="#34D399">
+      <text x="82" y="74" fill="#BEF264" font-size="15" letter-spacing="3">// OUONNKI.SPACE</text>
+      <circle cx="83" cy="104" r="4" fill="#A3E635">
         <animate attributeName="opacity" values="1;0.35;1" dur="2.2s" repeatCount="indefinite"/>
       </circle>
-      <text x="96" y="109" fill="#A7F3D0" font-size="12" letter-spacing="1.5">ONLINE · SHANGHAI / CN</text>
+      <text x="96" y="109" fill="#D9F99D" font-size="12" letter-spacing="1.5">ONLINE · SHANGHAI / CN</text>
 
       <text x="78" y="213" fill="url(#titleGradient)" font-size="86" font-weight="800" letter-spacing="7" filter="url(#textGlow)">OUONNKI</text>
       <text x="83" y="260" fill="#CBD5E1" font-size="18" letter-spacing="4">FRONTEND × FULL STACK × AI</text>
@@ -83,7 +83,7 @@
       <text x="899" y="330" fill="#64748B" font-size="11" letter-spacing="2">LIFE IS FANTASTIC_</text>
     </g>
 
-    <path d="M26 70V26H70M1130 26H1174V70M1174 290V334H1130M70 334H26V290" stroke="#A78BFA" stroke-opacity="0.38" stroke-width="2"/>
+    <path d="M26 70V26H70M1130 26H1174V70M1174 290V334H1130M70 334H26V290" stroke="#A3E635" stroke-opacity="0.38" stroke-width="2"/>
   </g>
   <rect x="1" y="1" width="1198" height="358" rx="28" stroke="url(#titleGradient)" stroke-opacity="0.32" stroke-width="2"/>
 </svg>

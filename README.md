@@ -7,9 +7,9 @@
 </p>
 
 <p align="center">
-  <a href="https://ouonnki.com/"><img src="https://img.shields.io/badge/Website-ouonnki.com-7C3AED?style=for-the-badge&logo=safari&logoColor=white" alt="Website"></a>
-  <a href="https://ouonnki.com/blog"><img src="https://img.shields.io/badge/Blog-Notes_&_Ideas-4F46E5?style=for-the-badge&logo=astro&logoColor=white" alt="Blog"></a>
-  <a href="https://t.me/Ouonnki"><img src="https://img.shields.io/badge/Telegram-Connect-0891B2?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"></a>
+  <a href="https://ouonnki.com/"><img src="https://img.shields.io/badge/Website-ouonnki.com-4D7C0F?style=for-the-badge&logo=safari&logoColor=white" alt="Website"></a>
+  <a href="https://ouonnki.com/blog"><img src="https://img.shields.io/badge/Blog-Notes_&_Ideas-CA8A04?style=for-the-badge&logo=astro&logoColor=white" alt="Blog"></a>
+  <a href="https://t.me/Ouonnki"><img src="https://img.shields.io/badge/Telegram-Connect-0E7490?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"></a>
 </p>
 
 ## `> whoami`
@@ -27,7 +27,7 @@ I enjoy turning ideas into polished web experiences, building useful open-source
 
 | Project | What it does | Signal |
 | :--- | :--- | :---: |
-| **[OuonnkiTV](https://github.com/Ouonnki/OuonnkiTV)** | A modern video aggregation, search, and playback frontend with one-click deployment. | ![Stars](https://img.shields.io/github/stars/Ouonnki/OuonnkiTV?style=flat-square&label=stars&color=7C3AED) |
+| **[OuonnkiTV](https://github.com/Ouonnki/OuonnkiTV)** | A modern video aggregation, search, and playback frontend with one-click deployment. | ![Stars](https://img.shields.io/github/stars/Ouonnki/OuonnkiTV?style=flat-square&label=stars&color=65A30D) |
 | **[PicOK Image Hosting](https://github.com/Ouonnki/PicOK-Image-Hosting)** | A Vercel-based image hosting solution designed for simple GitHub deployment. | `TypeScript` |
 | **[Figma to React Workflow](https://github.com/Ouonnki/figma-to-react-workflow)** | A high-fidelity Figma-to-React workflow with render capture and pixel-diff QA. | `UI × AI` |
 | **[Satellite Authentication](https://github.com/Ouonnki/satellite_authentication)** | Research reproduction for secure satellite-network authentication. | `Python` |
@@ -65,9 +65,9 @@ I enjoy turning ideas into polished web experiences, building useful open-source
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-season-animate.svg">
-    <img alt="Ouonnki's 3D contribution calendar" src="./profile-3d-contrib/profile-season-animate.svg" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-green.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-green-animate.svg">
+    <img alt="Ouonnki's 3D contribution calendar" src="./profile-3d-contrib/profile-green-animate.svg" width="100%">
   </picture>
 </p>
 
